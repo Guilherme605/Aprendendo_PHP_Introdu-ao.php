@@ -1,0 +1,15 @@
+$hamburger = 4.95;
+$Shake = 1.95;
+$Cola = 0.85;
+$comida = 0
+
+$gorjeta=0.16;
+$imposto
+
+$comida =  (2 * $hamburger) + $shake + $cola;
+$gorjetaFinal = $comida * $gorjeta;
+$impostoFinal = $comida * $imposto;
+
+$Total = $comida + $gorjetaFinal + $impostoFinal;
+
+print 'o custo total do alimento é' . $Total;
